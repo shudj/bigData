@@ -1,9 +1,7 @@
-/*
 package com.ad.real
 
 import org.apache.spark.SparkConf
-import org.apache.spark.streaming.kafka.KafkaUtils
-import org.apache.spark.streaming.kafka010.KafkaUtils
+import org.apache.spark.streaming.kafka010.{ConsumerStrategies, KafkaUtils, LocationStrategies}
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 /**
@@ -23,13 +21,12 @@ object TestKafka2SparkStreaming {
         val ssc = new StreamingContext(conf, Seconds(2))
         //ssc.checkpoint("WALCheckpoint")
         ssc.sparkContext.setLogLevel("WARN")
-        val topicMap = topics.split(",").map(topic => (topic, numThreads.toInt)).toMap
-        val value = KafkaUtils.createDirectStream(ssc, zkQuorum, group, topicMap)
+        val value = KafkaUtils.createDirectStream(ssc, LocationStrategies.PreferBrokers, ConsumerStrategies.Subscribe(Set(topics), null))
 
         value.foreachRDD(rdd => {
             if (!rdd.isEmpty()) {
                 rdd.foreach(line => {
-                    println(line._2)
+                    println(line.value())
                 })
             }
         })
@@ -37,4 +34,4 @@ object TestKafka2SparkStreaming {
         ssc.awaitTermination()
     }
 }
-*/
+

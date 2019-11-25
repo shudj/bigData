@@ -24,13 +24,15 @@ object OriginOuter {
         // 通过fromElement创建DataStream
         val elementsInput = env.fromElements("100,1010", "120,700").map(x => {
             val y = x.split(",")
+            //
             Stock(y(0).trim.toInt, y(1).trim.toInt)
         })
-
-        case class Stock(price: Int, volume: Int) {
-            override def toString: String = s"${price}_${volume}"
-        }
     }
+}
+
+
+case class Stock(price: Int, volume: Int) {
+    override def toString: String = s"${price}_${volume}"
 }
 
 class AverageAggregate extends AggregateFunction[(String, Long), (Long, Long), Double] {

@@ -1,3 +1,5 @@
+package demo
+
 import org.apache.flink.api.scala.ExecutionEnvironment
 
 /**

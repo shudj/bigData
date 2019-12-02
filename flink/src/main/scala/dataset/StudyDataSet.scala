@@ -1,3 +1,5 @@
+package dataset
+
 import org.apache.flink.api.common.operators.Order
 import org.apache.flink.api.java.aggregation.Aggregations
 import org.apache.flink.api.scala.{DataSet, ExecutionEnvironment, _}

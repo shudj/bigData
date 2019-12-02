@@ -1,3 +1,5 @@
+package origin.file
+
 import java.util.Properties
 
 import org.apache.flink.api.common.functions.AggregateFunction

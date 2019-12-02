@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0277bc2-99ed-4101-91be-898b58490959" name="Default Changelist" comment="整理代码">
-      <change afterPath="$PROJECT_DIR$/flink/src/main/scala/demo/WordCount.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/scala/demo/WordCount_offline.scala" afterDir="false" />
+    <list default="true" id="f0277bc2-99ed-4101-91be-898b58490959" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/src/main/scala/origin/kafka/FlinkKafkaConsumer_demo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/src/main/scala/util/Configs.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/src/main/scala/util/Prop.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/HotItems.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/demo/HotItems.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/OriginOuter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/origin/file/OriginOuter.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/StudyDataSet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/dataset/StudyDataSet.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/WordCount.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/WordCount_offline.scala" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,6 +30,7 @@
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.37" value="1" />
@@ -43,35 +41,35 @@
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="26" />
+          <entry key="class" value="27" />
           <entry key="csv" value="1" />
-          <entry key="java" value="17" />
-          <entry key="properties" value="1" />
-          <entry key="scala" value="76" />
+          <entry key="java" value="18" />
+          <entry key="properties" value="2" />
+          <entry key="scala" value="81" />
           <entry key="vmoptions" value="1" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="26" />
-          <entry key="JAVA" value="17" />
+          <entry key="CLASS" value="27" />
+          <entry key="JAVA" value="18" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Properties" value="1" />
-          <entry key="Scala" value="76" />
+          <entry key="Properties" value="2" />
+          <entry key="Scala" value="81" />
           <entry key="XML" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="772" />
-          <entry key="properties" value="67" />
-          <entry key="scala" value="11779" />
+          <entry key="properties" value="145" />
+          <entry key="scala" value="12573" />
           <entry key="txt" value="56" />
           <entry key="xml" value="189" />
         </counts>
@@ -80,8 +78,8 @@
         <counts>
           <entry key="JAVA" value="772" />
           <entry key="PLAIN_TEXT" value="56" />
-          <entry key="Properties" value="67" />
-          <entry key="Scala" value="11779" />
+          <entry key="Properties" value="145" />
+          <entry key="Scala" value="12573" />
           <entry key="XML" value="189" />
         </counts>
       </usages-collector>
@@ -90,55 +88,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flink/src/main/scala/demo/HotItems.scala">
+        <entry file="file://$PROJECT_DIR$/flink/src/main/scala/origin/kafka/FlinkKafkaConsumer_demo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1368">
-              <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+            <state relative-caret-position="223">
+              <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
               <folding>
-                <element signature="e#14#33#0" expanded="true" />
+                <element signature="e#22#57#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flink/src/main/scala/origin/file/OriginOuter.scala">
+        <entry file="file://$PROJECT_DIR$/flink/src/main/resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state>
+              <caret column="47" lean-forward="true" selection-start-column="18" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink/src/main/scala/util/Configs.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding>
-                <element signature="e#14#41#0" expanded="true" />
+                <element signature="e#14#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flink/src/main/scala/dataset/StudyDataSet.scala">
+        <entry file="file://$PROJECT_DIR$/flink/src/main/scala/util/Prop.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-              <folding>
-                <element signature="e#14#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flink/src/main/scala/demo/WordCount.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flink/src/main/scala/demo/WordCount_offline.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -159,6 +145,7 @@
       <find>create_person</find>
       <find>stop</find>
       <find>private</find>
+      <find>employee_id</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -211,6 +198,10 @@
         <option value="$PROJECT_DIR$/flink/src/main/scala/demo/WordCount_offline.scala" />
         <option value="$PROJECT_DIR$/flink/src/main/scala/dataset/StudyDataSet.scala" />
         <option value="$PROJECT_DIR$/flink/src/main/scala/origin/file/OriginOuter.scala" />
+        <option value="$PROJECT_DIR$/flink/src/main/scala/util/Configs.scala" />
+        <option value="$PROJECT_DIR$/flink/src/main/scala/util/Prop.scala" />
+        <option value="$PROJECT_DIR$/flink/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/flink/src/main/scala/origin/kafka/FlinkKafkaConsumer_demo.scala" />
       </list>
     </option>
   </component>
@@ -244,10 +235,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="300" />
-    <option name="y" value="230" />
-    <option name="width" value="1555" />
-    <option name="height" value="690" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -258,6 +249,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,15 +290,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink_spark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink_spark" type="462c0819:PsiDirectoryNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="origin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -316,8 +299,42 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="origin" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink_spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink_spark" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink_spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink_spark" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink_spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink_spark" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink_spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink_spark" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink_spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink_spark" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="ade" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink_spark" type="b2602c69:ProjectViewProjectNode" />
@@ -328,14 +345,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Executors&#9;PSI&#9;JAVA://java.util.concurrent.Executors" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575253313024" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575276779180" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../companyProject/spring.boot.presto.demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -358,7 +374,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.FlinkKafkaConsumer_demo">
     <configuration name="BroadCastDemo" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="broadcast.BroadCastDemo" />
       <module name="flink" />
@@ -385,6 +401,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FlinkKafkaConsumer_demo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="origin.kafka.FlinkKafkaConsumer_demo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="origin.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudyApo" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.ade.zookeeper.StudyApo" />
       <module name="hadoop" />
@@ -394,13 +423,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudyDataSet" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="StudyDataSet" />
-      <module name="flink" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -419,19 +441,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StudyDataSet" />
       <item itemvalue="Application.BroadCastDemo" />
       <item itemvalue="Application.CacheDemo" />
       <item itemvalue="Application.StudyApo" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.FlinkKafkaConsumer_demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlinkKafkaConsumer_demo" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.StudyApo" />
         <item itemvalue="Application.CacheDemo" />
         <item itemvalue="Application.BroadCastDemo" />
-        <item itemvalue="Application.StudyDataSet" />
       </list>
     </recent_temporary>
   </component>
@@ -467,6 +489,7 @@
       <workItem from="1574750995065" duration="7847000" />
       <workItem from="1574931053443" duration="1544000" />
       <workItem from="1575252491059" duration="1155000" />
+      <workItem from="1575253765562" duration="5497000" />
     </task>
     <task id="LOCAL-00001" summary="更改代码">
       <created>1574136378400</created>
@@ -510,11 +533,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574760198059</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="整理代码">
+      <created>1575253840628</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575253840628</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139123000" />
+    <option name="totallyTimeSpent" value="144620000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -527,8 +557,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25536194" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2580429" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -537,8 +568,8 @@
       <window_info id="Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.55886525" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.7124646" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.4141844" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.71205676" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -551,7 +582,7 @@
       <window_info anchor="bottom" id="Run with VisualVM" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="16" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.3286119" />
       <window_info anchor="bottom" id="ANTLR Preview" order="17" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -645,44 +676,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="整理代码" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming-kafka-0-10_2.11/2.2.0/spark-streaming-kafka-0-10_2.11-2.2.0-sources.jar!/org/apache/spark/streaming/kafka010/KafkaUtils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2784">
-          <caret line="164" column="30" selection-start-line="164" selection-start-column="30" selection-end-line="164" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.8.2.1/kafka-clients-0.8.2.1.jar!/org/apache/kafka/common/TopicPartition.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark/src/main/scala/com/ad/real/TestKafka2SparkStreamingDirect.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink/src/main/resources/UserBehavior.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.6.1/flink-streaming-java_2.11-1.6.1.jar!/org/apache/flink/streaming/api/datastream/DataStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="321" column="41" selection-start-line="321" selection-start-column="41" selection-end-line="321" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.6.1/flink-streaming-java_2.11-1.6.1-sources.jar!/org/apache/flink/streaming/api/functions/AssignerWithPunctuatedWatermarks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flink/src/main/java/StreamingWindowWordCountJava.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="607">
@@ -861,40 +854,33 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hadoop/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/spark/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1176">
           <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/flink/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/hadoop/src/main/resources/config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hadoop/src/main/scala/com/ade/util/ConfigProperties.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -920,8 +906,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/hadoop/src/main/scala/com/ade/zookeeper/Test.scala">
       <provider selected="true" editor-type-id="text-editor">
@@ -937,17 +923,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink/src/main/scala/WordCount.scala">
+    <entry file="file://$PROJECT_DIR$/flink/src/main/scala/WordCount.scala" />
+    <entry file="file://$PROJECT_DIR$/flink/src/main/scala/WordCount_offline.scala" />
+    <entry file="file://$PROJECT_DIR$/flink/src/main/scala/demo/HotItems.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="40" column="23" selection-start-line="40" selection-end-line="41" />
+        <state relative-caret-position="375">
+          <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+          <folding>
+            <element signature="e#14#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink/src/main/scala/WordCount_offline.scala">
+    <entry file="file://$PROJECT_DIR$/flink/src/main/scala/origin/file/OriginOuter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-end-line="13" />
+        <state relative-caret-position="792">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
@@ -961,20 +952,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink/src/main/scala/origin/file/OriginOuter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#14#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flink/src/main/scala/demo/WordCount.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -985,12 +966,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink/src/main/scala/demo/HotItems.scala">
+    <entry file="file://$PROJECT_DIR$/hadoop/src/main/scala/com/ade/util/ConfigProperties.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+        <state relative-caret-position="312">
+          <caret line="14" column="90" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/src/main/scala/util/Configs.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding>
-            <element signature="e#14#33#0" expanded="true" />
+            <element signature="e#14#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/src/main/scala/util/Prop.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-kafka-0.10_2.11/1.6.1/flink-connector-kafka-0.10_2.11-1.6.1.jar!/org/apache/flink/streaming/connectors/kafka/FlinkKafkaConsumer010.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="49" column="34" selection-start-line="49" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-kafka-0.10_2.11/1.6.1/flink-connector-kafka-0.10_2.11-1.6.1-sources.jar!/org/apache/flink/streaming/connectors/kafka/FlinkKafkaConsumer010.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="116" column="75" selection-start-line="116" selection-start-column="54" selection-end-line="116" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" lean-forward="true" selection-start-column="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/src/main/scala/origin/kafka/FlinkKafkaConsumer_demo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+          <folding>
+            <element signature="e#22#57#0" expanded="true" />
           </folding>
         </state>
       </provider>

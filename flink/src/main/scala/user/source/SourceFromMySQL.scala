@@ -4,11 +4,15 @@ import java.sql.{Connection, DriverManager, PreparedStatement}
 
 import org.apache.flink.configuration.Configuration
 import org.apache.flink.streaming.api.functions.source.{RichSourceFunction, SourceFunction}
+import user.bean.Role
 
 /**
-  * @author: shudj
-  * @time: 2019/12/3 15:27
-  * @description:
+  * 1、run ： 启动一个 source，即对接一个外部数据源然后 emit 元素形成 stream（大部分情况下会通过在该方法里运行一个 while
+  * 循环的形式来产生 stream）。
+  *
+  * 2、cancel ： 取消一个 source，也即将 run 中的循环 emit 元素的行为终止。
+  *
+  * 正常情况下，一个 SourceFunction 实现这两个接口方法就可以了。其实这两个接口方法也固定了一种实现模板。
   */
 class SourceFromMySQL extends RichSourceFunction[Role] {
 
@@ -41,6 +45,8 @@ class SourceFromMySQL extends RichSourceFunction[Role] {
 
     /**
       * DataStream 调用一次run()方法获取数据
+      * 1、run ： 启动一个 source，即对接一个外部数据源然后 emit 元素形成 stream（大部分情况下会通过在该方法里运行一个 while 循环的形式来产生 stream）。
+      *
       * @param ctx
       */
     override def run(ctx: SourceFunction.SourceContext[Role]): Unit = {

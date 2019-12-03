@@ -1,4 +1,4 @@
-package user.source
+package user.bean
 
 /**
   * @author: shudj

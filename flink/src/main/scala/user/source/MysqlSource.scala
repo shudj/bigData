@@ -1,6 +1,6 @@
 package user.source
 
-import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
+import org.apache.flink.streaming.api.scala._
 
 /**
   * @author: shudj
